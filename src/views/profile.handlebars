@@ -1,0 +1,18 @@
+<div class="flex relative h-screen items-center justify-center flex-col bg-gradient-to-tl from-gray-800 via-gray-900 to-gray-900">
+    <div class="absolute top-20 right-10 w-64 h-64 blur-3xl bg-gradient-to-r from-purple-400 to-pink-500 rounded-full z-[-1]"></div>
+    <div class="absolute bottom-20 left-10 w-64 h-64 blur-3xl bg-gradient-to-l from-blue-400 to-green-500 rounded-full z-[-1]"></div>
+
+
+    <div class="w-full max-w-md">
+        <div class="bg-gray-900 rounded-lg shadow-xl p-6">
+            <h3 class="text-2xl font-medium text-gray-200 mb-2">
+                {{ userData.first_name }} {{ userData.last_name }}
+            </h3>
+            <p class="text-sm text-gray-400 mb-4">Age: {{ userData.age }}</p>
+            <p class="text-sm text-gray-400 mb-4">Email: {{ userData.email }}</p>
+            <div class="flex items-center space-x-2">
+                <p class="text-xs text-gray-400">Role: {{ userData.role }}</p>
+            </div>
+        </div>
+    </div>
+</div>

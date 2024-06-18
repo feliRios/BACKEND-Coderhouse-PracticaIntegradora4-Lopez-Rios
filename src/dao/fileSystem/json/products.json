@@ -1,0 +1,68 @@
+[
+  {
+    "id": "7a8e05178823bd264c9fdbb6077e4f3c",
+    "title": "Producto 1",
+    "description": "Descripción del producto 1",
+    "price": 100,
+    "code": "ABC123",
+    "status": true,
+    "stock": 20,
+    "category": "Category 1",
+    "thumbnail": "https://www.pngarts.com/files/8/Apple-iPhone-11-Download-PNG-Image.png"
+  },
+  {
+    "id": "a845a3bdfe6af1b9f59641dcdc604bd3",
+    "title": "Producto 2",
+    "description": "Descripción del producto 2",
+    "price": 150,
+    "code": "DEF456",
+    "status": true,
+    "stock": 15,
+    "category": "Category 2",
+    "thumbnail": "https://imgur.com/Fn9kZve.png"
+  },
+  {
+    "id": "c42d8bdba666343411ef7ebe9261fd33",
+    "title": "Producto 3",
+    "description": "Descripción del producto 3",
+    "price": 120,
+    "code": "GHI789",
+    "status": true,
+    "stock": 10,
+    "category": "Category 1",
+    "thumbnail": "https://imgur.com/u6wclcF.png"
+  },
+  {
+    "id": "b37b58bfa4ca1b7cf3ec653b0c0573bc",
+    "title": "Producto 4",
+    "description": "Descripción del producto 4",
+    "price": 180,
+    "code": "JKL012",
+    "status": true,
+    "stock": 18,
+    "category": "Category 3",
+    "thumbnail": "https://imgur.com/csvQT5F.png"
+  },
+  {
+    "id": "38c64b1c377d560ca9efebe1fe261eed",
+    "title": "Producto 5",
+    "description": "Descripción del producto 5",
+    "price": 90,
+    "code": "MNO345",
+    "status": true,
+    "stock": 22,
+    "category": "Category 2",
+    "thumbnail": "https://imgur.com/DrC8wiB.png"
+  },
+  {
+    "id": "607b9008173ef56b916363b8b4a0c71a",
+    "title": "Producto 6",
+    "description": "Descripción del producto 6",
+    "price": 200,
+    "code": "PQR678",
+    "status": true,
+    "stock": 12,
+    "category": "Category 1",
+    "thumbnail": "https://imgur.com/Ms0uVyZ.png"
+  }
+]

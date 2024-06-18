@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+</head>
+<style>
+    ::-webkit-scrollbar {
+        width: 3px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: none;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #2d67da;
+        border-radius: 100px
+    }
+
+    ::-webkit-scrollbar-corner {
+        background: #2d67da;
+        border-radius: 100px;
+        height: 8px;
+        width: 8px;
+    }
+
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+</style>
+
+<body class="bg-[#0C0C0F]">
+    <div>
+        {{{body}}}
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    {{#if js}}
+    <script src="js/{{js}}"></script>
+    {{/if}}
+</body>
+
+</html>

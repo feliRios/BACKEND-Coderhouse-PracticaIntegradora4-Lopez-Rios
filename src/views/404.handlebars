@@ -1,0 +1,18 @@
+<div class="absolute top-24 left-0 w-64 h-64 blur-[120px] bg-gradient-to-br from-green-400 to-blue-600 rounded-full z-[-1]"></div>
+<div class="absolute bottom-32 right-0 w-64 h-64 blur-[120px] bg-gradient-to-bl from-purple-400 to-pink-600 rounded-full z-[-1]"></div>
+<div class="relative flex flex-col h-screen items-center justify-center">
+    <div class="flex items-center mb-4">
+        <h3 class="text-5xl text-white font-semibold border-gray-500 px-8 py-4">404</h3>
+        <span class="ml-6 text-xl text-gray-300">Page not found</span>
+    </div>
+
+    <div class="absolute bottom-8 text-center">
+        <a onclick="backToPage()" class="text-gray-300 cursor-pointer hover:text-white transition duration-200">Go back</a>
+    </div>
+</div>
+
+<script>
+    function backToPage() {
+        window.history.back();
+    }
+</script>
